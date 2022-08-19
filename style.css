@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Permanent+Marker&family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+body{
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+.background-one{
+    background: url(./chef-5993951.jpg);
+     background-size: cover; 
+     background-position: bottom;
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+    height: 420px;
+    width: 100%;
+}
+.background-two{
+    background: url(./kitchen-81493.jpg);
+     background-size: cover; 
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 280px;
+    width: 100%;
+    margin-top: 55px;
+
+}
+
+.our-passion{
+    position: relative;
+    top: 59px;
+    /* font-family: 'Dela Gothic One', cursive; */
+    /* font-family: 'Aboreto', cursive; */
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    /* font-family: 'Rubik Wet Paint', cursive; */
+    font-size: 43px;
+   width: 570px;
+   font-weight: 700;
+   margin: auto;
+   border-right: solid whitesmoke 6px;
+   border-left: solid whitesmoke 6px;
+   border-radius: 10px;
+   letter-spacing: 8px;
+   padding-top: 58px;
+   /* color: rgb(85, 0, 0) !important; */
+}
+.catering::first-letter{
+    font-size: 70px;
+}
+.excellent{
+    position: relative;
+    top: 47px;
+    font-family: 'Dela Gothic One', cursive;
+    font-size: 40px;
+   width: 600px;
+   margin: auto;
+   border-left: solid 4px;
+   border-right: solid 4px;
+   border-radius: 340px;
+   
+}
+.chef{
+    height: 143px;
+    width: 132px;
+    border: solid 4px white;
+    border-radius: 88px;
+    position: relative;
+    bottom: 33px;
+    z-index: 1;
+    background-color: white;
+    padding-top: 35px;
+}
+.menu{
+    position: relative;
+    bottom: 33px;
+    font-size: 34px;
+}
+.font-family{
+    font-family: 'Secular One', sans-serif;
+    font-size: 34px;
+}
+h4{
+    font-family: 'Permanent Marker', cursive;
+}
+.catering{
+    margin-top: 70px;
+    font-family: 'Secular One', sans-serif;
+    font-size: 55px;
+}
+.padding{
+    margin-left: 74px;
+    margin-top: 11px;
+    font-size: 31px;
+    font-family: 'Noto Sans Display', sans-serif;
+}
+.cateringbackground{
+    background: url('./breakfast.jpg');
+    width: 100%;
+    filter: brightness(90%);
+    background-position: top;
+    background-size: cover;
+    font-weight: bold;
+}
+.team{
+    font-size: 30px;
+    height: 143px;
+    width: 150px;
+    border: solid 4px white;
+    border-radius: 288px;
+    position: relative;
+    bottom: 33px;
+    z-index: 1;
+    background-color: white;
+    padding-top: 55px;
+}
+.sampletext{
+    position: relative;
+    bottom: 65px;
+    z-index: 2;
+}
+.paddingone{
+    margin-left: 1px;
+    margin-top: 11px;
+    font-size: 22px;
+    font-family: 'Noto Sans Display', sans-serif;
+}
+p{
+    word-wrap: break-word;
+}
